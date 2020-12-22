@@ -12,8 +12,9 @@ dans ce depot nous avons deux devoirs sur eds lecon 10
 ***
 ici nous avons creer un site internet de la lecon 10 de l'eds 
 avec html, css
-le lien du site est : 
+le lien du site est : http://jepeuxlefaire.net/issahermann/
 ## la lecon 10 en php
 ***
 dans cette section, nous avons creer un site avec la 
 les fichiers externes de php ( chapitre 1)
+http://jepeuxlefaire.net/issahermann/devoirphp
