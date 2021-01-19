@@ -1,0 +1,156 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="nave.css">
+        <link rel="stylesheet" href="top.css">
+        <style>
+          
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .yey{
+    color: #f1f1f1;
+    font-size:20px;
+    cursor:pointer;
+    float: right;
+    padding-right: 10px;
+
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+        </style>
+    </head>
+    <body>
+        
+        <section class="yeo">
+            <div style="text-align: center; color: rgb(216, 216, 216); font-size: 20px;">
+                <h1>minfacebookcity</h1>
+            </div>
+            <div class="navbar">
+              
+              <div class="non">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Accueil</a>
+                <a class="rechereche.php" href="#"><i class="fa fa-fw fa-envelope"></i> Profil</a>
+                <a href="#", onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-search"></i> Recherche </a>
+                <a href="index.php"><i class="fa fa-fw fa-envelope"></i> Deconnection</a>
+              </div>
+              <span class="yey"  onclick="document.getElementById('id02').style.display='block'"> <i class="fa fa-fw fa-user"></i> Option</span>
+            </div>
+        </section>
+      
+
+        <section>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="login_action.php" method="post">
+
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i> Recherche</button>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Quiter</button>
+  </div>
+</form>
+
+</div>
+            
+        </section>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+
+
+
+<section>
+
+  <div id="id02" class="modal">
+    
+    <form class="modall-content animate" action="login_action.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+  <!-- The form -->
+  <form class="example" action="action_page.php">
+      <ul class="navbarr">
+        <li><a class="active" href="#"><i class="fa fa-fw fa-home"></i> Accueil</a></li> <br><br>
+        <li><a href="profit.php"><i class="fa fa-fw fa-envelope"></i> Profil</a></li>  <br><br>
+        <li><a href="recherche.php"><i class="fa fa-fw fa-user"></i> Ami(e)s</a></li> <br><br>
+        <li><a href="recherche.php", onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-search"></i> Recherche</a></li> <br><br>
+        <li><a href="#"><i class="fa fa-fw fa-home"></i> conctat</a></li> <br><br>
+        <li><a href="#"><i class="fa fa-fw fa-home"></i> A propos</a></li> <br><br>
+        <li><a href="index.php"><i class="fa fa-trash"></i> Deconnection</a></li> <br><br>
+      </ul>
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Quiter</button>
+    </div>
+  </form>
+  
+  </div>
+              
+          </section>
+  
+          <script>
+              // Get the modal
+              var modal = document.getElementById('id01');
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+              </script>
+
+</html>

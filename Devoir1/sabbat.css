@@ -1,0 +1,257 @@
+body{
+    background-color: lavenderblush;
+}
+
+.diveur{
+    background-image: url("city.png");
+    width: auto;
+    height: 25%;
+}
+.logo{
+    float: left;
+    width: 30%;
+    height:60%;
+    text-indent: 10px;
+
+}
+.toto{
+    margin: 20px;
+    padding: 5px;
+}
+
+.eds{
+    float: right;
+    width: 70%;
+    height:60%;
+
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+
+nav{
+    width: 100%;
+}
+
+.yes{
+    width: 100%;
+
+}
+
+.coucou{
+    background-color: rgb(243, 242, 233);
+}
+.cou{
+    background-color: rgb(243, 241, 241);
+}
+.ccou{
+    background-color: rgb(250, 245, 245);
+}
+.couc{
+    background-color: rgb(243, 240, 240);
+}
+.cour{
+    background-color: rgb(245, 241, 233);
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+.pot ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.yes{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+.pot li{
+    list-style-type: none;
+    float: left;
+    font-size: 10px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.acc:hover, .pr{
+    background-color: rgba(64, 200, 130, 0.15 );
+}
+
+.loi:hover, .pc{
+    background-color: rgba(000, 112 ,192 , 0.15);
+}
+.insc:hover, .cp{
+    background-color: rgba(241, 211 ,79 , 0.15);
+}
+.con:hover, .rc{
+    background-color: rgba(222, 77, 38, 0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.acca{
+    text-align: center;
+
+}
+
+section{
+    padding: 10px;
+    margin: 3px;
+}
+samp{
+    color: rgb(95, 148, 5);
+}
+
+.class{
+    text-indent: 100px;
+}
+.centre{
+    text-align: center;
+    color: darkkhaki;
+}
+.centr{
+    text-align: center;
+}
+.toi{
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 1px 1px 4px;
+}
+
+footer{
+    height: 50px;
+    width: auto;
+    background-color: rgba(241, 211 ,79 , 0.15);
+}
+
+.tip{
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(241, 10, 10);
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.image{
+    height: 170px;
+    padding: 2px;
+    margin: 2px;
+    background-image: url("city.png");
+}
+.imagee{
+    height: 170px;
+    padding: 2px;
+    margin: 2px;
+    background-image: url("proo.png");
+    color: rgb(89, 57, 235);
+}
+.imag{
+    height: 170px;
+    padding: 2px;
+    margin: 2px;
+    background-image: url("ciscoo.jpg");
+    color: rgb(89, 57, 235);
+}
+.images{
+    height: 170px;
+    padding: 2px;
+    margin: 2px;
+    background-image: url("ciscooo.jpg");
+    color: rgb(89, 57, 235);
+}
+.img{
+    height: 170px;
+    padding: 2px;
+    margin: 2px;
+    background-image: url("ciscooo.jpg");
+    color: rgb(89, 57, 235);
+}
+
+
+.forme{
+    font-size: 50px;
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+
+.ret{
+    float: right;
+    width: 90px;
+    padding: 15px;
+    background-color: rgb(107, 109, 104);
+    
+}
+
+.carosel{
+    width: 1080px;
+    height: 200px;
+    background-image: url("yes.jpg");
+    text-align: center;
+    font-size: 15px;
+    color: rgb(1, 2, 12);
+}
+.carosele{
+    width: 1080px;
+    height: 200px;
+    background-image: url("proo.png");
+    text-align: center;
+    font-size: 15px;
+    color: rgb(22, 24, 39);
+}
+
+.slider {
+    width: 1075px;
+    overflow: hidden ;
+    margin: 25px auto;
+
+}
+.slides {
+    width: calc(1080px * 2 );
+    animation: glisse 20s infinite
+}
+.slide {
+    float: left;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-1080px);
+    }
+    75% {
+        transform: translateX(-1080px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

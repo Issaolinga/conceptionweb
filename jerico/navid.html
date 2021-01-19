@@ -1,0 +1,69 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="nave.css">
+    </head>
+    <body>
+        
+        <section class="yeo">
+            <div style="text-align: center; color: rgb(216, 216, 216); font-size: 20px;">
+                <h1>minfacebookcity</h1>
+            </div>
+            <div class="navbar">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Accueil</a>
+                <a href="pieds.inc.php"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                 <a href="#", onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-fw fa-user"></i> Connectez-vous </a>
+                </div>
+        </section>
+      
+
+        <section>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="login_action.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="address"><b>Adresse</b></label>
+      <input type="text" placeholder="Enter adresse" name="address" required>
+
+      <label for="psw"><b>Mot de passe</b></label>
+      <input type="password" placeholder="Enter mot de passe" name="psw" required>
+        
+      <button type="submit">Enregister</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> se souvemier
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Quiter</button>
+      <span class="psw">oublier <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+            
+        </section>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color: beige;
+}
+
+.comme{
+    text-indent: 70px;
+}
+h3{
+    font-weight: 100;
+}
+.inputt{
+    text-indent: 150px;
+}
+
+.rien{
+    float: left; 
+    width: 30%;
+}
+.yes{
+    float: right; 
+    width: 70%;
+}
+.issa{
+    display: none;
+}
+
+.photo{
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 1px;
+    height: 30%;
+}
+
+.nom{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.bien{
+    float: right;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 1px 1px 3px darkcyan;
+    width: 70%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .rien{
+        display: none;
+    }
+    .issa{
+        display: inline;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    .nom{
+        display: none;
+    }
+    .bien{
+        color: darkgreen;
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 55px;
+    }
+    .yes{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
